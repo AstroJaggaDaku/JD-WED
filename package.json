@@ -1,0 +1,30 @@
+
+{
+  "name": "jd-matrimony-ultra",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node seed-admin.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-auth": "^4.23.1",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^7.3.0",
+    "cloudinary": "^1.38.1",
+    "axios": "^1.4.0",
+    "nodemailer": "^6.9.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
